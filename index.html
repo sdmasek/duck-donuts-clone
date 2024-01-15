@@ -3,9 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" class="rel">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Duck Donuts Clone</title>
 </head>
 <body>
-    
+    <main>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+               
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#">Features</a>
+                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </div>
+                  </div>
+                  <a class="navbar-brand" href="#">Duck Donuts</a>
+                </div>
+              </nav>
+              <div class="header-bg">
+                
+              </div>
+        </header>
+        <div class="main-body">
+          <section class="CTA">
+            <div class="headline">
+              <h1>Warm, Delicious <br/> MADE TO ORDER</h1>
+              <h3>-Customized-<br/>BEFORE YOUR EYES!</h3>
+            </div>
+            <div class="btn-container">
+              <button class="order">Order Online</button>
+              <button class="flavors">Seasonal Flavors</button>
+            </div>
+            <div class="find-zip-container">
+              <h3>FIND YOUR DUCK DONUTS</h3>
+              <p>We can't find where you are located, please enter your zip code.</p>
+            </div>
+            <div class="zipCode-container">
+              <input type="text" id="zipCode" name="zipCode" required minlength="4"/>
+              <button class="find-address">Go</button>
+            </div>
+          </section>
+          <!-- Menu Cards -->
+          <section class="menu-cards">
+            <div class="food-card">
+              <img src="" alt="pic of donut">
+              <p class="food-title"></p>
+              <span class="food-btn"><a>></a></span>
+            </div>
+            <div class="food-card">
+              <img src="" alt="pic of donut">
+              <p class="food-title"></p>
+              <span class="food-btn"><a>></a></span>
+            </div>
+            <div class="food-card">
+              <img src="" alt="pic of donut">
+              <p class="food-title"></p>
+              <span class="food-btn"><a>></a></span>
+            </div>
+            <div class="food-card">
+              <img src="" alt="pic of donut">
+              <p class="food-title"></p>
+              <span class="food-btn"><a>></a></span>
+            </div>
+          </section>
+          <section class="item-selection">
+            <img src="pics/choco-donut.jpg" alt="chocolate donut">
+            <div class="item-header">
+              <h3>Warm, Delicious</h3>
+              <h3>MADE TO ORDER</h3>
+              <hr class="break">
+            </div>
+            <div class="customize-container">
+              <p class="item-customize">
+                COATING
+              </p>
+              <p class="item-customize">
+                TOPPING
+              </p>
+              <p class="item-customize">
+                DRIZZLE
+              </p>
+            </div>
+            <div class="summary-container">
+              <p class="item-summary">
+                Select one of our Ducklicious coating options from cinnamon sugar to blueberry icing.
+              </p>
+            </div>
+            <div class="select-box">
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+            </div>
+            <button class="item-options">See All Options</button>
+          </section>
+
+          <section class="jelly">
+            <div class="jelly-text-container">
+              <div class="jelly-header">
+                <h3>JELLY IS HERE</h3>
+                <p>Available January 1 - February 4, 2024</p>
+              </div>
+              <div class="jelly-text">
+                <p>Our limited-time raspberry jelly provides a sweet twist on a classic 
+                  donut this winter season.
+                   Add jelly to any one of your favorite donut combinations or 
+                   pick from one of our featured donuts!</p>
+                <p>Don't forget to order ahead to beat the lines for Winter's sweetest treats!</p>
+              </div>
+              <div class="jelly-btn">
+                <button class="donuts-seasonal">Seasonal Donuts</button>
+              </div>
+            </div>
+            <div class="img-jelly-container">
+              <img src="pics/jelly-donuts.jpg" alt="jelly donuts">
+            </div>
+          </section>
+          <section class="quick-chat">
+            <div class="quick-chat-img">
+              <img src="pics/quick-chat.jpg" alt="donuts with quick chat phone screen">
+            </div>
+            <div class="quick-chat-text">
+              <h3>LET'S TEXT!</h3>
+              <p>Join our new QuackChat program to
+                 receive exclusive offers, new flavors, and more! 
+                 You’ll receive a free donut just for signing up.</p>
+            </div>
+            <div class="quick-chat-btn">
+              <button>Learn More</button>
+            </div>
+          </section>
+          <section class="contact">
+
+
+          </section>
+
+          <section class="footer">
+            <footer>
+
+            </footer>
+          </section>
+        </div>
+    </main>
 </body>
 </html>
