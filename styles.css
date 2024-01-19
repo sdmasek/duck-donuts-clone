@@ -1,9 +1,18 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.5;
+    background-color: rgb(255, 255, 255);
 }
 
 h1,h3{
     font-family: 'Grandstander', cursive;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
 }
 
 .navbar-brand img{
@@ -11,10 +20,27 @@ h1,h3{
     height: auto;
 }
 
+#button-toggle{
+   background-color: rgb(230,66,122);
+   padding: 1rem;
+   align-self: flex-start;
+
+}
+
 #phone{
     width: 25px;
     height: 25px;
-    color: rgb(197, 52, 142);
+    color: rgb(230,66,122);
     font-size: 20px;
     transform:rotate(100deg);
+}
+
+.CTA{
+    background: radial-gradient(circle,
+    rgba(114,200,234,1) 0%,
+    rgba(0,158,221,1) 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
