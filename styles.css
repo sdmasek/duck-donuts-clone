@@ -71,14 +71,27 @@ h1{
 }
 
 .first-line::before{
-    padding-right: 10px;
+    padding-right: 25px;
 }
 
-.CTA button{
-    width: 35%;
+.CTA a{
+    width: 200px;
     background-color: rgb(230,66,122);
     color: #fff;
     align-self: center;
     font-weight: bolder;
-    border-radius: 20%;
+    border-color: rgb(230,66,122);
+    border-radius: 25px;
+    margin: 1em;
+    padding: 1rem 1.25rem;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button{
+    box-shadow: 0 8px 8px -4px #000;
 }
