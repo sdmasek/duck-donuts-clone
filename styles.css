@@ -105,7 +105,7 @@ h1{
 }
 
 .CTA a{
-    width: 200px;
+    width: 225px;
     background-color: rgb(230,66,122);
     color: #fff;
     align-self: center;
@@ -148,14 +148,14 @@ li{
 .find-zip-container h3{
     text-shadow: none;
     color: #000;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     padding-top: 25px;
 }
 
 .find-zip-container p{
     color: #000;
-    padding: 15px;
+    padding: 1rem 3rem;
     font-size: 12px;
 }
 
@@ -165,6 +165,8 @@ li{
 
 .zipCode-container{
     display: flex;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 .find-zip-container button{
