@@ -174,8 +174,10 @@ li{
     background-color: rgb(230,66,122);
     font-weight: bold;
     border-color: rgb(230,66,122);
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
+    padding: .5em 1em;
     border: 22px;
+
 }
 
 .menu-cards{
@@ -184,12 +186,21 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    top: 155px;
 }
 
 .food-card{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 300px;
+    max-width: 300px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 0 0 50px #ccc;
+    margin: 10px 0;
+    padding: 5px;
 }
 
 .food-card img{
@@ -199,7 +210,9 @@ li{
 .food-card p{
     color: rgb(0,158,221,1);
     font-weight: bold;
-    margin-top: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
 }
 
 .food-btn{
@@ -207,11 +220,20 @@ li{
     border-radius: 100%;
     width: 2.2rem;
     height: 2.2rem;
+    display: block;
+    padding: 10px;
+    align-self: center;
+    
 }
 
 .food-btn a{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+   
 }
