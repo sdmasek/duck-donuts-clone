@@ -169,7 +169,7 @@ li{
     box-sizing: border-box;
 }
 
-.find-zip-container button{
+.find-zip-container button, .item-selection button{
     color: #fff;
     background-color: rgb(230,66,122);
     font-weight: bold;
@@ -292,20 +292,33 @@ hr{
     display: flex;
     justify-content: space-around;
     width: 200px;
-    
+    align-self: center;
 }
 
-.button-container a{
+.coating, .topping, .drizzle{
     display: block;
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
     background-color: #a3a3a3;
 }
 
-.select-topping-btn{
-    background-color: rgb(15, 100, 34), 163, 163);
+.item-selection{
+    display: flex;
+    flex-direction: column;
+}
+
+#select-topping-btn{
+    background-color: #000;
 }
 
 .item-options{
-    bottom: 150px;
+    top: 30px;
+    position: relative;
+    width: 40%;
+    align-self: center;
+    
+}
+
+.jelly{
+    padding-top: 50px;
 }
