@@ -169,7 +169,7 @@ li{
     box-sizing: border-box;
 }
 
-.find-zip-container button, .item-selection button{
+.find-zip-container button, .item-selection button, .donuts-seasonal{
     color: #fff;
     background-color: rgb(230,66,122);
     font-weight: bold;
@@ -305,6 +305,7 @@ hr{
 .item-selection{
     display: flex;
     flex-direction: column;
+    padding: 0 25px;
 }
 
 #select-topping-btn{
@@ -320,5 +321,58 @@ hr{
 }
 
 .jelly{
-    padding-top: 50px;
+    padding: 50px 25px;
+
+}
+
+.jelly-header h3, .quick-chat-text h3{
+    font-size: 32px;
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(0,158,221,1);
+    text-shadow: 5px 5px 7px rgba(0,0,0, .6);
+    font-family: 'Grandstander', cursive;
+
+}
+
+.jelly-header p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.jelly-text{
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.jelly-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.img-jelly-container img, 
+.quick-chat-img img, 
+.newsletter-donuts-pic img{
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.img-jelly-container,
+.quick-chat-img,
+.newsletter-donuts-pic{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.quick-chat-text{
+    padding: 15px 25px;
+}
+
+.quick-chat-text p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
 }
