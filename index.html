@@ -1,270 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" class="rel">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/f99a1e93d7.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" class="rel" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&family=Noto+Sans+JP:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f99a1e93d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Duck Donuts Clone</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-               
-                  <button class="navbar-dark navbar-toggler" type="button" id="button-toggle" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      <a class="nav-link" href="#">Features</a>
-                      <a class="nav-link" href="#">Pricing</a>
-                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              
-                    </div>
-                  </div>
-                  <a class="navbar-brand" href="#"><img src="pics/top-page-logo.png" alt="duck donuts logo"></a>
-                  <i class="fas fa-regular fas fa-phone" id="phone"></i>
-                </div>
-              </nav>
-              <div class="header-bg">
-                
+      <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button
+              class="navbar-dark navbar-toggler"
+              type="button"
+              id="button-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
               </div>
-        </header>
-        <div class="main-body">
-          <section class="CTA">
-            <div class="headline">
-              <h1>Warm, Delicious <br/> MADE TO ORDER</h1>
-              <div class="h3-container">
-                <h3><span class="first-line"></span>CUSTOMIZED<span class="second-line"></span></h3>
-              </div>
-              <h3>BEFORE YOUR EYES!</h3>
-             
-             
-             
             </div>
-            <div class="list-container">
-              <ul class="btn-container">
-                <li><a href="#" class="button">Order Online</a></li>
-                <li><a href="#" class="button">Seasonal Flavors</a></li>
-              </ul>
-            </div>
-       
-            
-            <div class="find-zip-container">
-              <h3>FIND YOUR <span>DUCK DONUTS</span></h3>
-              <p>We can't find where you are located, please enter your zip code.</p>
-              <div class="zipCode-container">
-                <input type="text" value="Enter City or Zip Code" id="zipCode" name="zipCode" required minlength="4"/>
-                <button class="find-address">Go</button>
-              </div>
+            <a class="navbar-brand" href="#"
+              ><img src="pics/top-page-logo.png" alt="duck donuts logo"
+            /></a>
+            <i class="fas fa-regular fas fa-phone" id="phone"></i>
           </div>
-          </section>
-          <!-- Menu Cards -->
-          <section class="menu-cards">
-            <a href="">
+        </nav>
+        <div class="header-bg"></div>
+      </header>
+      <div class="main-body">
+        <section class="CTA">
+          <div class="headline">
+            <h1>
+              Warm, Delicious <br />
+              MADE TO ORDER
+            </h1>
+            <div class="h3-container">
+              <h3>
+                <span class="first-line"></span>CUSTOMIZED<span
+                  class="second-line"
+                ></span>
+              </h3>
+            </div>
+            <h3>BEFORE YOUR EYES!</h3>
+          </div>
+          <div class="list-container">
+            <ul class="btn-container">
+              <li><a href="#" class="button">Order Online</a></li>
+              <li><a href="#" class="button">Seasonal Flavors</a></li>
+            </ul>
+          </div>
+
+          <div class="find-zip-container">
+            <h3>FIND YOUR <span>DUCK DONUTS</span></h3>
+            <p>
+              We can't find where you are located, please enter your zip code.
+            </p>
+            <div class="zipCode-container">
+              <input
+                type="text"
+                value="Enter City or Zip Code"
+                id="zipCode"
+                name="zipCode"
+                required
+                minlength="4"
+              />
+              <button class="find-address">Go</button>
+            </div>
+          </div>
+        </section>
+        <!-- Menu Cards -->
+        <section class="menu-cards">
+          <a href="">
             <div class="food-card">
               <div>
-                <img src="pics/fan-favorite.png" alt="pic of donut">
+                <img src="pics/fan-favorite.png" alt="pic of donut" />
               </div>
               <p class="food-title">FAN FAVORITES</p>
-              <span class="food-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" rect fill="#ffffff"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"/></svg></span>
+              <span class="food-btn"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  rect
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"
+                  /></svg
+              ></span>
             </div>
-            </a>
-            <a href="#">
+          </a>
+          <a href="#">
             <div class="food-card">
               <div>
-                <img src="pics/coffee_espresso_more.png" alt="pic of iced coffee drink">
+                <img
+                  src="pics/coffee_espresso_more.png"
+                  alt="pic of iced coffee drink"
+                />
               </div>
               <p class="food-title">COFFEE, ESPRESSO & MORE</p>
-              <span class="food-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" rect fill="#ffffff"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"/></svg></span>
+              <span class="food-btn"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  rect
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"
+                  /></svg
+              ></span>
             </div>
           </a>
           <a href="#">
             <div class="food-card">
               <div>
-                <img src="pics/ice_cream.png" alt="pic of ice cream">
+                <img src="pics/ice_cream.png" alt="pic of ice cream" />
               </div>
               <p class="food-title">ICE CREAM</p>
-              <span class="food-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" rect fill="#ffffff"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"/></svg></span>
+              <span class="food-btn"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  rect
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"
+                  /></svg
+              ></span>
             </div>
           </a>
           <a href="#">
             <div class="food-card">
               <div>
-                <img src="pics/sandwiches.png" alt="pic of donut sandwich">
+                <img src="pics/sandwiches.png" alt="pic of donut sandwich" />
               </div>
               <p class="food-title">SANDWICHES</p>
-              <span class="food-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" rect fill="#ffffff"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"/></svg></span>
+              <span class="food-btn"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  rect
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"
+                  /></svg
+              ></span>
             </div>
           </a>
-          </section>
-          <div class="padding">
-            <div>
-              <span>
-                <!-- empty section -->
-              </span>
+        </section>
+        <div class="padding">
+          <div>
+            <span>
+              <!-- empty section -->
+            </span>
+          </div>
+        </div>
+        <section class="item-selection">
+          <div class="order-pic-container">
+            <img src="pics/choco-donut.jpg" alt="chocolate donut" />
+          </div>
+          <div class="item-header">
+            <h3>WARM, DELICIOUS</h3>
+            <h3>MADE TO ORDER</h3>
+            <hr class="break" />
+          </div>
+          <div class="customize-container">
+            <p class="item-customize" id="select">COATING</p>
+            <p class="item-customize">TOPPING</p>
+            <p class="item-customize">DRIZZLE</p>
+          </div>
+          <div class="summary-container">
+            <p class="item-summary">
+              Select one of our Ducklicious coating options from cinnamon sugar
+              to blueberry icing.
+            </p>
+          </div>
+          <div class="button-container">
+            <a href="#" class="coating" id="select-topping-btn"></a>
+            <a href="#" class="topping"></a>
+            <a href="#" class="drizzle"></a>
+          </div>
+          <div class="select-box">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+
+          <button class="item-options">See All Options</button>
+        </section>
+
+        <section class="jelly">
+          <div class="jelly-text-container">
+            <div class="jelly-header">
+              <h3>JELLY IS HERE</h3>
+              <p>Available January 1 - February 4, 2024</p>
+            </div>
+            <div class="jelly-text">
+              <p>
+                Our limited-time raspberry jelly provides a sweet twist on a
+                classic donut this winter season. Add jelly to any one of your
+                favorite donut combinations or pick from one of our featured
+                donuts!
+              </p>
+              <p>
+                Don't forget to order ahead to beat the lines for Winter's
+                sweetest treats!
+              </p>
+            </div>
+            <div class="jelly-btn">
+              <button class="donuts-seasonal">Seasonal Donuts</button>
             </div>
           </div>
-          <section class="item-selection">
-            <div class="order-pic-container">
-              <img src="pics/choco-donut.jpg" alt="chocolate donut">
-            </div>
-            <div class="item-header">
-              <h3>WARM, DELICIOUS</h3>
-              <h3>MADE TO ORDER</h3>
-              <hr class="break">
-            </div>
-            <div class="customize-container">
-              <p class="item-customize" id="select">
-                COATING
-              </p>
-              <p class="item-customize">
-                TOPPING
-              </p>
-              <p class="item-customize">
-                DRIZZLE
-              </p>
-            </div>
-            <div class="summary-container">
-              <p class="item-summary">
-                Select one of our Ducklicious coating options from cinnamon sugar to blueberry icing.
+          <div class="img-jelly-container">
+            <img src="pics/jelly-donuts.jpg" alt="jelly donuts" />
+          </div>
+        </section>
+        <section class="quick-chat">
+          <div class="quick-chat-img">
+            <img
+              src="pics/quick-chat.jpg"
+              alt="donuts with quick chat phone screen"
+            />
+          </div>
+          <div class="quick-chat-container">
+            <div class="quick-chat-text">
+              <h3>LET'S TEXT!</h3>
+              <p>
+                Join our new QuackChat program to receive exclusive offers, new
+                flavors, and more! You'll receive a free donut just for signing
+                up.
               </p>
             </div>
-            <div class="button-container">
-              <a href="#" class="coating" id="select-topping-btn"></a>
-              <a href="#" class="topping"></a>
-              <a href="#" class="drizzle"></a>
+            <div class="quick-chat-btn">
+              <button>Learn More</button>
             </div>
-            <div class="select-box">
-              <div class="box"></div>
-              <div class="box"></div>
-              <div class="box"></div>
-            </div>
-            
-            <button class="item-options">See All Options</button>
-          </section>
-
-          <section class="jelly">
-            <div class="jelly-text-container">
-              <div class="jelly-header">
-                <h3>JELLY IS HERE</h3>
-                <p>Available January 1 - February 4, 2024</p>
-              </div>
-              <div class="jelly-text">
-                <p>Our limited-time raspberry jelly provides a sweet twist on a classic 
-                  donut this winter season.
-                   Add jelly to any one of your favorite donut combinations or 
-                   pick from one of our featured donuts!</p>
-                <p>Don't forget to order ahead to beat the lines for Winter's sweetest treats!</p>
-              </div>
-              <div class="jelly-btn">
-                <button class="donuts-seasonal">Seasonal Donuts</button>
-              </div>
-            </div>
-            <div class="img-jelly-container">
-              <img src="pics/jelly-donuts.jpg" alt="jelly donuts">
-            </div>
-          </section>
-          <section class="quick-chat">
-            <div class="quick-chat-img">
-              <img src="pics/quick-chat.jpg" alt="donuts with quick chat phone screen">
-            </div>
-            <div class="quick-chat-container">
-              <div class="quick-chat-text">
-                <h3>LET'S TEXT!</h3>
-                <p>Join our new QuackChat program to
-                   receive exclusive offers, new flavors, and more! 
-                   You'll receive a free donut just for signing up.</p>
-              </div>
-              <div class="quick-chat-btn">
-                <button>Learn More</button>
-              </div>
-            </div>
-          </section>
-          <section class="contact">
-            <div class="newsletter-donuts-pic">
-              <img src="pics/donuts-variety.jpg" alt="picture of nine different donuts">
-            </div>
-            <div class="newsletter-header">
+          </div>
+        </section>
+        <section class="contact">
+          <div class="newsletter-donuts-pic">
+            <img
+              src="pics/donuts-variety.jpg"
+              alt="picture of nine different donuts"
+            />
+          </div>
+          <div class="newsletter-header">
             <h3>Duck Donuts</h3>
             <h3>NEWSLETTER</h3>
-            <p>Stay updated on our latest
-               duckvelopments, including new featured products,
-                fresh locations, and more tasty news!</p>
-            </div>
-            <div class="input-form">
-              <input type="text" name="first-name" id="first-name" value="First Name*"/>
-              <input type="text" name="last-name" id="last-name" value="Last Name*"/>
-              <input type="text" name="email" id="email" value="Email*"/>
-              <input type="type" name="zipcode" id="zipcode" value="Zip Code*"/>
-              <input type="checkbox" name="age-verify" id="age-verify">
-              <label for="age-verify" class="age-verify-checkbox">I certify that I am 13 years of age or older*</label>
+            <p>
+              Stay updated on our latest duckvelopments, including new featured
+              products, fresh locations, and more tasty news!
+            </p>
+          </div>
+          <div class="input-form">
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              value="First Name*"
+            />
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              value="Last Name*"
+            />
+            <input type="text" name="email" id="email" value="Email*" />
+            <input type="type" name="zipcode" id="zipcode" value="Zip Code*" />
+            <input type="checkbox" name="age-verify" id="age-verify" />
+            <div class="age-verify-container">
+              <label for="age-verify" class="age-verify-checkbox"
+                >I certify that I am 13 years of age or older*</label
+              >
               <p>*indicates required field</p>
-              <button class="newsletter-btn">Sign Up</button>
             </div>
-          
-          </section>
 
-          <section class="footer">
-            <footer>
-              <div class="logo-container">
-                <img src="pics/DD-logo.png" alt="duck donuts logo">
-              </div>
-              <div class="social-container">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-x-twitter"></i>
-                <i class="fa-brands fa-facebook-f"></i>
+            <button class="newsletter-btn">Sign Up</button>
+          </div>
+        </section>
+
+        <section class="footer">
+          <footer>
+            <div class="logo-container">
+              <img src="pics/DD-logo.png" alt="duck donuts logo" />
+            </div>
+            <div class="social-container">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
             </div>
             <div class="quick-links">
-                <a href="#" class="footer-link">menu</a>
-                <a href="#" class="footer-link">locations</a>
-                <a href="#" class="footer-link">catering</a>
-                <a href="#" class="footer-link">u.s. online order</a>
-                <a href="#" class="footer-link">puerto rico online order</a>
-                <a href="#" class="footer-link">contact us</a>
-                <a href="#" class="footer-link">u.s. franchising</a>
-                <a href="#" class="footer-link">international franchising</a>
-                <a href="#" class="footer-link">nutrition & allergy info</a>
-                <a href="#" class="footer-link">collaborations</a>
+              <a href="#" class="footer-link">menu</a>
+              <a href="#" class="footer-link">locations</a>
+              <a href="#" class="footer-link">catering</a>
+              <a href="#" class="footer-link">u.s. online order</a>
+              <a href="#" class="footer-link">puerto rico online order</a>
+              <a href="#" class="footer-link">contact us</a>
+              <a href="#" class="footer-link">u.s. franchising</a>
+              <a href="#" class="footer-link">international franchising</a>
+              <a href="#" class="footer-link">nutrition & allergy info</a>
+              <a href="#" class="footer-link">collaborations</a>
             </div>
             <div class="search-container">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" name="search" id="search" value="SEARCH">
-                <input type="submit" id="search-go" name="search-go" value="Go">
-             </div>
-             <div class="duck-container">
-              <img src="pics/DD-character.png" alt="picture of Duck">
-             </div>
-
-            </footer>
-          </section>
-          <section class="footer-final">
-            <footer>
-              <div class="copyright">
-                <p>@2024 All Rights Reserved.</p>
-              </div>
-              <div class="footer-links">
-                <a href="#">Site Map</a>
-                <a href="#">Accessibility</a>
-                <a href="#">Privacy Policy</a>
-              </div>
-
-
-            </footer>
-          </section>
-        </div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" name="search" id="search" value="SEARCH" />
+              <input type="submit" id="search-go" name="search-go" value="Go" />
+            </div>
+            <div class="duck-container">
+              <img src="pics/DD-character.png" alt="picture of Duck" />
+            </div>
+          </footer>
+        </section>
+        <section class="footer-final">
+          <footer>
+            <div class="copyright">
+              <p>@2024 All Rights Reserved.</p>
+            </div>
+            <div class="footer-links">
+              <a href="#">Site Map</a>
+              <a href="#">Accessibility</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+          </footer>
+        </section>
+      </div>
     </main>
-
-
-</body>
+  </body>
 </html>
