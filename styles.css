@@ -102,7 +102,8 @@ h3 {
 .CTA a,
 .item-selection button,
 .donuts-seasonal,
-.quick-chat-btn button {
+.quick-chat-btn button,
+.newsletter-btn {
   width: 225px;
   background-color: rgb(230, 66, 122);
   color: #fff;
@@ -423,13 +424,39 @@ hr {
 
 .age-verify-container {
   display: flex;
-  flex-direction: column;
 }
 
 #age-verify {
+  width: 50px;
+  margin-left: auto;
+}
+
+.age-verify-checkbox{
   text-align: left;
 }
-.age-verify-container p,
-.age-verify-container label {
-  align-self: start;
+
+.input-form p{
+  align-self: flex-start;
+  font-size: 12px;
+  padding: 0 25px;
+}
+
+footer{
+  background-color: rgb(0, 158, 221);
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.logo-container img{
+  width: 15rem;
+  height: auto;
+}
+
+.fa-brands{
+  width: 50px;
+  height: 50px;
 }
