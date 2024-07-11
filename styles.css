@@ -166,13 +166,13 @@ li {
   color: rgb(0, 158, 221, 1);
 }
 
-.zipCode-container {
+.zipCode-container, .search-container {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
 }
 
-.find-zip-container button {
+.find-zip-container button, #search-go {
   color: #fff;
   background-color: rgb(230, 66, 122);
   font-weight: bold;
@@ -445,7 +445,7 @@ footer{
   background-color: rgb(0, 158, 221);
 }
 
-.logo-container{
+.logo-container, .social-container{
   display: flex;
   justify-content: center;
   padding: 25px;
@@ -456,7 +456,27 @@ footer{
   height: auto;
 }
 
-.fa-brands{
-  width: 50px;
-  height: 50px;
+.social-container svg{
+  margin: 5px;
+  padding: 10px;
+}
+
+.quick-links{
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 15px 15px;
+}
+
+.footer-link{
+  text-align: left;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: .5em;
+}
+
+.fa-magnifying-glass{
+  height: 25px;
+  width: 25px;
+  color: #000;
 }
