@@ -427,12 +427,14 @@ hr {
 }
 
 #age-verify {
-  width: 50px;
+  width: 15px;
   margin-left: auto;
 }
 
 .age-verify-checkbox{
   text-align: left;
+  font-size: 14px;
+  align-self:center;
 }
 
 .input-form p{
@@ -473,6 +475,18 @@ footer{
   font-weight: bold;
   text-decoration: none;
   padding: .5em;
+}
+
+.search-container svg{
+  position: absolute;
+}
+
+.search-footer{
+  display: none !important;
+}
+
+#search{
+  width: 250px;
 }
 
 .fa-magnifying-glass{
