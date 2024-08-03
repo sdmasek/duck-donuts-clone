@@ -477,16 +477,27 @@ footer{
   padding: .5em;
 }
 
+.search-container{
+  position: relative;
+}
+
 .search-container svg{
   position: absolute;
+  right: auto;
+  transform: translateY(-50%);
+  left: 2.5rem;
+  bottom: 0;
+  top: 50%;
 }
 
 .search-footer{
   display: none !important;
+ 
 }
 
 #search{
   width: 250px;
+  padding: .2rem 0 .2rem 3rem;
 }
 
 .fa-magnifying-glass{
