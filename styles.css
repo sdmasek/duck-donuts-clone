@@ -479,13 +479,15 @@ footer{
 
 .search-container{
   position: relative;
+  width: 75%;
+  max-width: 75%;
+  margin: auto;
 }
 
 .search-container svg{
   position: absolute;
-  right: auto;
   transform: translateY(-50%);
-  left: 2.5rem;
+  left: 0rem;
   bottom: 0;
   top: 50%;
 }
