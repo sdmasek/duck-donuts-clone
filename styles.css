@@ -220,11 +220,16 @@ li {
 .food-btn {
   background-color: rgb(0, 147, 131);
   border-radius: 100%;
-  width: 2.2rem;
-  height: 2.2rem;
-  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
   padding: 10px;
   align-self: center;
+}
+
+.food-btn svg{
+  align-self: center;
+  margin: 0 auto;
 }
 
 .food-btn a {
@@ -506,4 +511,36 @@ footer{
   height: 25px;
   width: 25px;
   color: #000;
+}
+
+.duck-container{
+  padding: 1.2rem 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.duck-container img{
+ max-width: 150px;
+ width: 150px;
+}
+
+#footer-final{
+  background-color: #000;
+  padding: 1.2rem;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright p{
+  color: #969494;
+  text-align: center;
+}
+
+
+.footer-links a{
+  text-decoration: none;
+  color: #969494;
 }
